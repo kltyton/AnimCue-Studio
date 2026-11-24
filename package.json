@@ -1,0 +1,19 @@
+{
+  "name": "animcue-studio",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Blockbench plugin for authoring AnimCue multi-actor Minecraft animations with PAL / MoreRotation bend support.",
+  "license": "LGPL-3.0-or-later",
+  "scripts": {
+    "build": "node build.cjs",
+    "check": "node build.cjs && node --check dist/animcue_studio.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kltyton/AnimCue-Studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kltyton/AnimCue-Studio/issues"
+  },
+  "homepage": "https://github.com/kltyton/AnimCue-Studio/wiki"
+}
