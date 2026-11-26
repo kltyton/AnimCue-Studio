@@ -1,6 +1,6 @@
 const InteractionCodec = (() => {
-    const ROOT = 'kltyton:root';
-    const SECTION = 'kltyton:interactions';
+    const ROOT = 'interactive_animation:root';
+    const SECTION = 'interactive_animation:interactions';
     const CHANNELS = ['position', 'rotation', 'scale', 'bend'];
     let hookedCodec = null;
     let originalCodecLoad = null;

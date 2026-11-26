@@ -133,7 +133,7 @@ const VanillaTemplates = (() => {
         const used = new Set();
         for (const group of Group.all) {
             let base = String(group.name || '').trim();
-            if (!base || base === 'kltyton:root') base = 'submodel';
+            if (!base || base === 'interactive_animation:root') base = 'submodel';
             let candidate = base;
             let suffix = 2;
             while (used.has(candidate)) candidate = `${base}_${suffix++}`;

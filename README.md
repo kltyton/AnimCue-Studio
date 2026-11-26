@@ -14,7 +14,7 @@ Works on both **Blockbench Desktop and Web (`5.0.0+`)**, with automatic **Englis
   - Built-in **PAL Bend Player** and **PAL DragonCore Player** rigs when paired with [PAL Bend Player Tools](https://github.com/kltyton/Pal-bend-player-tools) (`0.4.2+`).
   - **Vanilla Entity** templates with vanilla textures loaded automatically.
 - **PAL & MoreRotation Bend Support**: Detects standard PAL and DragonCore player rigs, converts `*_bend` helper bones into 3-axis AnimCue `bend` vectors, and lets you import existing PAL, Emotecraft (`.emote`), DragonCore, or Bedrock clips directly onto a specific actor. Basic `*_bend` export also works standalone without the PAL plugin installed.
-- **Scene Camera & Event Markers**: Add a non-exported scene camera (`kltyton:interactions.<anim>.camera`), align the viewport to the camera at any frame (`Look Through Camera`), and insert `timeline` event markers in one click.
+- **Scene Camera & Event Markers**: Add a non-exported scene camera (`interactive_animation:interactions.<anim>.camera`), align the viewport to the camera at any frame (`Look Through Camera`), and insert `timeline` event markers in one click.
 - **Full Round-Trip Import & Export**: Export selected or all animations to one AnimCue `.animation.json`, and load existing AnimCue `.animation.json` files back into the scene (via the panel, `File → Import`, or native Bedrock animation import).
 
 ## Installation
@@ -35,7 +35,7 @@ For player elbow/knee/torso bends and `.emote` import, also install **[PAL Bend 
 1. Open your main model (`.bbmodel`), or create a blank scene via **File → New → AnimCue Scene**.
 2. In the left **AnimCue** panel, click **+ Add Actor** to bring in a `.bbmodel` / `.geo.json`, a **PAL Bend / DragonCore Player**, or a **Vanilla Entity**.
 3. Double-click an actor card (or click the move icon) to jump to **Frame 0** with its root selected and position it in the viewport.
-   - Animate the actor root (`kltyton:root`) for whole-actor movement and turning.
+   - Animate the actor root (`interactive_animation:root`) for whole-actor movement and turning.
    - Animate child bones (and `*_bend` helpers on PAL rigs) for body and limb motion.
    - Open the **⋮** menu (or right-click in the panel / Outliner) to set exact Frame 0 coordinates, import an animation onto that actor, edit role/resource ID, reorder, duplicate, or remove.
 4. Click **Add Camera** to animate a scene camera and preview through it at any time, or click the flag icon to add an event marker to the timeline.

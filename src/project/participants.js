@@ -148,7 +148,7 @@ const Participants = (() => {
 
             function tag(g) {
                 const original = g[boneKey] || g.name;
-                if (!original || original === 'kltyton:root' || sourceNames.has(original)) {
+                if (!original || original === 'interactive_animation:root' || sourceNames.has(original)) {
                     throw new Error(Locale.t('err_duplicate_bone', {name: original}));
                 }
                 if (g[slotKey]?.role) throw new Error(Locale.t('err_nested_scene'));
