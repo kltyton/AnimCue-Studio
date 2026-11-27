@@ -15,7 +15,7 @@
   - **原版实体模板**：内置检索与双击确认，自动拉取原版实体贴图。
 - **PAL / MoreRotation 弯曲联动**：自动识别标准 PAL 与龙核玩家骨骼，将 `*_bend` 辅助骨骼转换为 AnimCue 运行端使用的三轴 `bend` 向量，并支持将现成的 PAL、Emotecraft（`.emote`）、龙核或基岩动画直接导入到指定角色身上。未安装 PAL 插件时，仍提供基础 `*_bend` 导出回退。
 - **场景镜头与事件标记**：一键添加不导出几何体的镜头组（导出为 `interactive_animation:interactions.<anim>.camera`），随时在任意时间点通过「预览镜头视角」对齐视口，也可一键向主动画 `timeline` 插入事件标记。
-- **完整双向导入导出**：支持导出当前或全部动画为单个合拍 `.animation.json`，也支持从面板、文件菜单或直接用原生动画导入加载已有合拍文件继续修改。
+- **完整双向导入导出**：支持导出当前或全部动画为单个合拍 `.animation.json`（保留 `sound_effects` 与 `particle_effects` 关键帧），也支持从面板、文件菜单或直接用原生动画导入加载已有合拍文件（含声音与粒子分组关键帧）继续修改。
 
 ## 安装方式
 
@@ -87,4 +87,4 @@ src/
 
 ## 开源许可
 
-本项目基于 [GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)](LICENSE) 开源。
+本项目基于 [GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)](../../LICENSE) 开源。

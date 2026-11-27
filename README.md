@@ -15,7 +15,7 @@ Works on both **Blockbench Desktop and Web (`5.0.0+`)**, with automatic **Englis
   - **Vanilla Entity** templates with vanilla textures loaded automatically.
 - **PAL & MoreRotation Bend Support**: Detects standard PAL and DragonCore player rigs, converts `*_bend` helper bones into 3-axis AnimCue `bend` vectors, and lets you import existing PAL, Emotecraft (`.emote`), DragonCore, or Bedrock clips directly onto a specific actor. Basic `*_bend` export also works standalone without the PAL plugin installed.
 - **Scene Camera & Event Markers**: Add a non-exported scene camera (`interactive_animation:interactions.<anim>.camera`), align the viewport to the camera at any frame (`Look Through Camera`), and insert `timeline` event markers in one click.
-- **Full Round-Trip Import & Export**: Export selected or all animations to one AnimCue `.animation.json`, and load existing AnimCue `.animation.json` files back into the scene (via the panel, `File → Import`, or native Bedrock animation import).
+- **Full Round-Trip Import & Export**: Export selected or all animations to one AnimCue `.animation.json` (preserving `sound_effects` and `particle_effects`), and load existing AnimCue `.animation.json` files (including grouped sound and particle keyframes) back into the scene (via the panel, `File → Import`, or native Bedrock animation import).
 
 ## Installation
 
@@ -87,4 +87,4 @@ src/
 
 ## License
 
-Licensed under the [GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)](LICENSE).
+Licensed under the [GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)](../../LICENSE).

@@ -1,13 +1,18 @@
 const Participants = (() => {
     const slotKey = 'animcue_participant';
     const boneKey = 'animcue_bone_name';
+    const effectRoleKey = 'animcue_role';
     const resourceId = /^[a-z0-9_.-]+:[a-z0-9/._-]+$/;
 
     function register() {
-        return [
+        const props = [
             new Property(Group, 'object', slotKey),
             new Property(Group, 'string', boneKey)
         ];
+        if (typeof KeyframeDataPoint !== 'undefined') {
+            props.push(new Property(KeyframeDataPoint, 'string', effectRoleKey));
+        }
+        return props;
     }
 
     function roots() {
