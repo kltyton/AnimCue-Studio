@@ -96,6 +96,7 @@ src/
 
 - [AnimCue](https://github.com/kltyton/AnimCue) — Minecraft 多角色互动动画运行端模组
 - [PAL Bend Player Tools](https://github.com/kltyton/Pal-bend-player-tools) — PAL / Emotecraft / 龙核 / MoreRotation 玩家动画 Blockbench 插件
+- [ParticleCue Studio](https://github.com/kltyton/ParticleCue-Studio) — 支持 LumenFX / Photon / Snowstorm / KBR 3D、KilaGraph 节点着色器与合拍多角色定位点粒子预览的 Blockbench 插件
 
 ## 开源许可
 

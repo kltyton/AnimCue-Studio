@@ -96,6 +96,7 @@ src/
 
 - [AnimCue](https://github.com/kltyton/AnimCue) — Minecraft multi-actor animation runtime mod
 - [PAL Bend Player Tools](https://github.com/kltyton/Pal-bend-player-tools) — Blockbench plugin for PAL / Emotecraft / DragonCore / MoreRotation player animations
+- [ParticleCue Studio](https://github.com/kltyton/ParticleCue-Studio) — Blockbench plugin for multi-format particle authoring (LumenFX, Photon, Snowstorm, KBR 3D), KilaGraph shaders, and multi-actor locator particle preview
 
 ## License
 
