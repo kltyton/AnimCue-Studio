@@ -1,8 +1,18 @@
-# AnimCue Studio（合拍创作插件）
+<p align="center">
+  <img src="icon.png" alt="AnimCue Studio" width="84" />
+</p>
 
-[English](README.md) · [中文 Wiki](https://github.com/kltyton/AnimCue-Studio/wiki/Home-zh) · [English Wiki](https://github.com/kltyton/AnimCue-Studio/wiki)
+<h1 align="center">AnimCue Studio（合拍创作插件）</h1>
+
+<p align="center">
+  <a href="README.md">English</a> · <strong>简体中文</strong> · <a href="https://github.com/kltyton/AnimCue-Studio/wiki/Home-zh">中文 Wiki</a> · <a href="https://github.com/kltyton/AnimCue-Studio/wiki">English Wiki</a>
+</p>
+
+---
 
 **AnimCue Studio** 是为 [AnimCue](https://github.com/kltyton/AnimCue) 运行端制作多角色互动动画的 Blockbench 插件。你可以把主体模型、多个参与角色（自定义模型、原版实体或可弯曲玩家）、时间轴事件以及镜头放在同一条 Blockbench 时间轴上协同 K 帧，并一键导出为单个 `.animation.json`。
+
+![AnimCue Studio 多角色合拍场景与 PAL 玩家联动](docs/images/overview-scene.png)
 
 同时支持 **Blockbench 桌面版与网页版（`5.0.0+`）**，界面语言跟随 Blockbench 设置自动切换 **简体中文 / 繁体中文 / English**。
 
@@ -40,6 +50,8 @@
    - 点击角色卡片右侧 **⋮**（或在面板卡片 / 大纲上右键）可设置精确的第 0 帧坐标、向该角色导入动作、修改角色名/资源 ID、调整绑定顺序、复制或移除。
 4. 点击 **添加镜头** 制作镜头运动并随时预览当前帧视角；点击工具栏旗标图标在当前时间插入事件标记。
 5. 点击面板右上角 **导出**（或 **文件 → 导出 → 合拍动画**）输出 `.animation.json`。
+
+![场景镜头轨道与多角色时间轴关键帧](docs/images/camera-timeline.png)
 
 ## 完整文档（Wiki）
 
@@ -87,4 +99,4 @@ src/
 
 ## 开源许可
 
-本项目基于 [GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)](../../LICENSE) 开源。
+本项目基于 [GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)](LICENSE) 开源。

@@ -1,8 +1,18 @@
-# AnimCue Studio
+<p align="center">
+  <img src="icon.png" alt="AnimCue Studio" width="84" />
+</p>
 
-[简体中文](README_zh.md) · [English Wiki](https://github.com/kltyton/AnimCue-Studio/wiki) · [中文 Wiki](https://github.com/kltyton/AnimCue-Studio/wiki/Home-zh)
+<h1 align="center">AnimCue Studio</h1>
+
+<p align="center">
+  <strong>English</strong> · <a href="README_zh.md">简体中文</a> · <a href="https://github.com/kltyton/AnimCue-Studio/wiki">English Wiki</a> · <a href="https://github.com/kltyton/AnimCue-Studio/wiki/Home-zh">中文 Wiki</a>
+</p>
+
+---
 
 **AnimCue Studio** is a Blockbench plugin for authoring multi-actor Minecraft animations for the [AnimCue](https://github.com/kltyton/AnimCue) runtime. Animate a subject model, multiple actors (custom models, vanilla entities, or bendable players), timeline events, and a scene camera together on a single Blockbench timeline, then export everything to one `.animation.json`.
+
+![AnimCue Studio Multi-Actor Scene with PAL Players and Scene Camera](docs/images/overview-scene.png)
 
 Works on both **Blockbench Desktop and Web (`5.0.0+`)**, with automatic **English / Simplified Chinese / Traditional Chinese** UI following Blockbench's language setting.
 
@@ -40,6 +50,8 @@ For player elbow/knee/torso bends and `.emote` import, also install **[PAL Bend 
    - Open the **⋮** menu (or right-click in the panel / Outliner) to set exact Frame 0 coordinates, import an animation onto that actor, edit role/resource ID, reorder, duplicate, or remove.
 4. Click **Add Camera** to animate a scene camera and preview through it at any time, or click the flag icon to add an event marker to the timeline.
 5. Click **Export** (or **File → Export → AnimCue Animation...**) to generate the `.animation.json`.
+
+![Scene Camera Track and Multi-Actor Timeline](docs/images/camera-timeline.png)
 
 ## Documentation (Wiki)
 
@@ -87,4 +99,4 @@ src/
 
 ## License
 
-Licensed under the [GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)](../../LICENSE).
+Licensed under the [GNU Lesser General Public License v3.0 or later (LGPL-3.0-or-later)](LICENSE).
